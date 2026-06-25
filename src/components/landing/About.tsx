@@ -25,7 +25,7 @@ export function About() {
                 className="h-full w-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-4 rounded-2xl bg-[var(--gradient-emerald)] px-6 py-5 text-primary-foreground shadow-[var(--shadow-glow)] sm:right-6">
+            <div className="absolute -bottom-6 -right-4 rounded-2xl btn-emerald px-6 py-5 text-primary-foreground shadow-[var(--shadow-glow)] sm:right-6">
               <p className="font-display text-3xl font-extrabold">
                 <Counter to={2018} />
               </p>

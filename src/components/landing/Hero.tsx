@@ -51,7 +51,7 @@ export function Hero() {
           >
             <a
               href="#contact"
-              className="group inline-flex items-center justify-center gap-2 rounded-full bg-[var(--gradient-gold)] px-7 py-4 text-base font-bold text-gold-foreground shadow-[var(--shadow-elegant)] transition-transform hover:scale-[1.03]"
+              className="group inline-flex items-center justify-center gap-2 rounded-full btn-gold px-7 py-4 text-base font-bold text-gold-foreground shadow-[var(--shadow-elegant)] transition-transform hover:scale-[1.03]"
             >
               Get a Free Quote
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />

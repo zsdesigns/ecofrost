@@ -71,7 +71,7 @@ export function Services() {
                     />
                   </div>
                 )}
-                <span className="grid h-14 w-14 place-items-center rounded-2xl bg-[var(--gradient-emerald)] text-primary-foreground shadow-[var(--shadow-glow)]">
+                <span className="grid h-14 w-14 place-items-center rounded-2xl btn-emerald text-primary-foreground shadow-[var(--shadow-glow)]">
                   <s.icon className="h-7 w-7" />
                 </span>
                 <h3 className="mt-5 font-display text-xl font-bold text-foreground">

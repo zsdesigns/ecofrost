@@ -136,7 +136,7 @@ export function RoiCalculator() {
                     Payback period
                   </p>
                 </div>
-                <div className="rounded-2xl bg-[var(--gradient-emerald)] p-4 text-primary-foreground">
+                <div className="rounded-2xl btn-emerald p-4 text-primary-foreground">
                   <TrendingUp className="h-5 w-5" />
                   <p className="mt-2 font-display text-xl font-extrabold">
                     {rand(data.tenYearSaving)}
@@ -147,7 +147,7 @@ export function RoiCalculator() {
 
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--gradient-gold)] px-6 py-3.5 text-sm font-bold text-gold-foreground transition-transform hover:scale-[1.02]"
+                className="inline-flex items-center justify-center gap-2 rounded-full btn-gold px-6 py-3.5 text-sm font-bold text-gold-foreground transition-transform hover:scale-[1.02]"
               >
                 <Sun className="h-4 w-4" />
                 Get my exact quote

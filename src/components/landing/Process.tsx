@@ -47,7 +47,7 @@ export function Process() {
             {steps.map((s, i) => (
               <Reveal key={s.n} delay={i * 110}>
                 <div className="relative text-center">
-                  <div className="mx-auto grid h-[4.5rem] w-[4.5rem] place-items-center rounded-2xl bg-[var(--gradient-emerald)] text-primary-foreground shadow-[var(--shadow-glow)]">
+                  <div className="mx-auto grid h-[4.5rem] w-[4.5rem] place-items-center rounded-2xl btn-emerald text-primary-foreground shadow-[var(--shadow-glow)]">
                     <s.icon className="h-8 w-8" />
                   </div>
                   <span className="mt-4 block font-display text-xs font-extrabold tracking-[0.3em] text-gold">

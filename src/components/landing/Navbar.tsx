@@ -33,7 +33,7 @@ export function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 sm:px-8">
         <a href="#top" className="flex items-center gap-2.5 text-white">
-          <span className="grid h-10 w-10 place-items-center rounded-xl bg-[var(--gradient-emerald)] shadow-[var(--shadow-glow)]">
+          <span className="grid h-10 w-10 place-items-center rounded-xl btn-emerald shadow-[var(--shadow-glow)]">
             <Sun className="h-5 w-5 text-white" />
           </span>
           <span className="flex flex-col leading-none">
@@ -61,7 +61,7 @@ export function Navbar() {
         <div className="hidden items-center gap-3 lg:flex">
           <a
             href="#contact"
-            className="rounded-full bg-[var(--gradient-gold)] px-5 py-2.5 text-sm font-bold text-gold-foreground shadow-lg transition-transform hover:scale-105"
+            className="rounded-full btn-gold px-5 py-2.5 text-sm font-bold text-gold-foreground shadow-lg transition-transform hover:scale-105"
           >
             Get a Free Quote
           </a>
@@ -92,7 +92,7 @@ export function Navbar() {
             <a
               href="#contact"
               onClick={() => setOpen(false)}
-              className="mt-2 rounded-full bg-[var(--gradient-gold)] px-5 py-3 text-center text-sm font-bold text-gold-foreground"
+              className="mt-2 rounded-full btn-gold px-5 py-3 text-center text-sm font-bold text-gold-foreground"
             >
               Get a Free Quote
             </a>

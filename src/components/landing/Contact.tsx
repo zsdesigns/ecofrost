@@ -62,7 +62,7 @@ export function Contact() {
                   rel="noopener noreferrer"
                   className="group flex items-start gap-4 rounded-2xl border border-border bg-card p-5 transition-all hover:-translate-y-0.5 hover:shadow-[var(--shadow-elegant)]"
                 >
-                  <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-[var(--gradient-emerald)] text-primary-foreground">
+                  <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl btn-emerald text-primary-foreground">
                     <c.icon className="h-5 w-5" />
                   </span>
                   <span className="min-w-0">
@@ -79,7 +79,7 @@ export function Contact() {
                 href="https://wa.me/27712956332"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-[var(--gradient-gold)] px-5 py-4 font-bold text-gold-foreground transition-transform hover:scale-[1.02]"
+                className="mt-auto inline-flex items-center justify-center gap-2 rounded-2xl btn-gold px-5 py-4 font-bold text-gold-foreground transition-transform hover:scale-[1.02]"
               >
                 <MessageCircle className="h-5 w-5" />
                 Chat on WhatsApp
@@ -165,7 +165,7 @@ export function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[var(--gradient-emerald)] px-6 py-3.5 font-bold text-primary-foreground transition-transform hover:scale-[1.01]"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-full btn-emerald px-6 py-3.5 font-bold text-primary-foreground transition-transform hover:scale-[1.01]"
                   >
                     <Send className="h-4 w-4" />
                     Send My Request

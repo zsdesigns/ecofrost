@@ -16,7 +16,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-2.5">
-              <span className="grid h-10 w-10 place-items-center rounded-xl bg-[var(--gradient-emerald)]">
+              <span className="grid h-10 w-10 place-items-center rounded-xl btn-emerald">
                 <Sun className="h-5 w-5 text-white" />
               </span>
               <span className="font-display text-lg font-extrabold">

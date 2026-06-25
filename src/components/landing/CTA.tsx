@@ -6,7 +6,7 @@ export function CTA() {
     <section className="bg-background py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
-          <div className="relative overflow-hidden rounded-[2rem] bg-[var(--gradient-emerald)] px-7 py-14 text-center shadow-[var(--shadow-elegant)] sm:px-12 sm:py-16">
+          <div className="relative overflow-hidden rounded-[2rem] btn-emerald px-7 py-14 text-center shadow-[var(--shadow-elegant)] sm:px-12 sm:py-16">
             <div className="pointer-events-none absolute right-0 top-0 h-64 w-64 animate-sun-pulse rounded-full bg-[radial-gradient(circle,oklch(0.9_0.16_85/0.4),transparent_65%)] blur-2xl" />
             <div className="relative">
               <h2 className="font-display text-3xl font-extrabold text-primary-foreground sm:text-4xl md:text-5xl">
@@ -34,7 +34,7 @@ export function CTA() {
                   href="https://wa.me/27712956332"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[var(--gradient-gold)] px-6 py-3.5 text-sm font-bold text-gold-foreground transition-transform hover:scale-[1.03] sm:w-auto"
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-full btn-gold px-6 py-3.5 text-sm font-bold text-gold-foreground transition-transform hover:scale-[1.03] sm:w-auto"
                 >
                   <MessageCircle className="h-4 w-4" />
                   WhatsApp Us

@@ -83,7 +83,7 @@ export function Packages() {
               <div
                 className={`group flex h-full flex-col rounded-3xl p-7 transition-all duration-300 hover:-translate-y-1.5 ${
                   p.featured
-                    ? "bg-[var(--gradient-emerald)] shadow-[var(--shadow-glow)]"
+                    ? "btn-emerald shadow-[var(--shadow-glow)]"
                     : "glass-dark"
                 }`}
               >
@@ -131,7 +131,7 @@ export function Packages() {
                   className={`mt-6 inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-bold transition-transform hover:scale-[1.03] ${
                     p.featured
                       ? "bg-white text-primary"
-                      : "bg-[var(--gradient-gold)] text-gold-foreground"
+                      : "btn-gold text-gold-foreground"
                   }`}
                 >
                   Request Quote
