@@ -138,6 +138,10 @@
   background-image: var(--gradient-emerald);
 }
 
+@utility overlay-hero {
+  background-image: var(--gradient-hero);
+}
+
 @utility glass-card {
   background: color-mix(in oklab, var(--card) 70%, transparent);
   border: 1px solid color-mix(in oklab, var(--border) 80%, transparent);
