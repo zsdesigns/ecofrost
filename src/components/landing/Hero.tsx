@@ -13,7 +13,7 @@ export function Hero() {
         className="absolute inset-0 h-full w-full object-cover"
         fetchPriority="high"
       />
-      <div className="absolute inset-0 bg-[var(--gradient-hero)]" />
+      <div className="absolute inset-0 overlay-hero" />
       <div className="absolute inset-0 bg-ink/30" />
 
       {/* Animated sunlight effect */}
