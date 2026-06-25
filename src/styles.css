@@ -130,6 +130,14 @@
   color: transparent;
 }
 
+@utility btn-gold {
+  background-image: var(--gradient-gold);
+}
+
+@utility btn-emerald {
+  background-image: var(--gradient-emerald);
+}
+
 @utility glass-card {
   background: color-mix(in oklab, var(--card) 70%, transparent);
   border: 1px solid color-mix(in oklab, var(--border) 80%, transparent);
