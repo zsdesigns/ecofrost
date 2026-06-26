@@ -84,7 +84,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Professional solar installations, electrical services & maintenance across Northern KwaZulu-Natal. Residential, commercial & industrial solar by EcoFrost.",
       },
       { name: "author", content: "EcoFrost Electrical & Solar Solutions" },
-      { property: "og:title", content: "EcoFrost Electrical & Solar Solutions" },
+      { property: "og:title", content: "EcoFrost Electrical & Solar Solutions | Richards Bay, KZN" },
       {
         property: "og:description",
         content:
@@ -92,6 +92,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "EcoFrost Electrical & Solar Solutions | Richards Bay, KZN" },
+      { name: "description", content: "Best solar and electricity installation for all around KZN and neighboring provinces" },
+      { property: "og:description", content: "Best solar and electricity installation for all around KZN and neighboring provinces" },
+      { name: "twitter:description", content: "Best solar and electricity installation for all around KZN and neighboring provinces" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b9fbb56-2bf1-400e-85b8-4a4d95ec3ee4/id-preview-1ee5eb87--66e77f18-1012-4063-9abc-db3561f27846.lovable.app-1782424773730.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b9fbb56-2bf1-400e-85b8-4a4d95ec3ee4/id-preview-1ee5eb87--66e77f18-1012-4063-9abc-db3561f27846.lovable.app-1782424773730.png" },
     ],
     links: [
       {
