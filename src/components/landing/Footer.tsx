@@ -1,4 +1,5 @@
-import { Sun, MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
+import logoAsset from "@/assets/logo.jpg.asset.json";
 
 const nav = [
   { label: "About", href: "#about" },
@@ -16,12 +17,11 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-2.5">
-              <span className="grid h-10 w-10 place-items-center rounded-xl btn-emerald">
-                <Sun className="h-5 w-5 text-white" />
-              </span>
-              <span className="font-display text-lg font-extrabold">
-                Eco<span className="text-accent">Frost</span>
-              </span>
+              <img
+                src={logoAsset.url}
+                alt="EcoFrost Solar Solutions"
+                className="h-11 w-auto rounded-lg bg-white object-contain"
+              />
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/60">
               Electrical & Solar Solutions. Helping homes and businesses across

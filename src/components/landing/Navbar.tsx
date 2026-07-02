@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Menu, X, Sun } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import logoAsset from "@/assets/logo.jpg.asset.json";
 
 const links = [
   { label: "About", href: "#about" },
@@ -33,17 +34,11 @@ export function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 sm:px-8">
         <a href="#top" className="flex items-center gap-2.5 text-white">
-          <span className="grid h-10 w-10 place-items-center rounded-xl btn-emerald shadow-[var(--shadow-glow)]">
-            <Sun className="h-5 w-5 text-white" />
-          </span>
-          <span className="flex flex-col leading-none">
-            <span className="font-display text-lg font-extrabold tracking-tight">
-              Eco<span className="text-accent">Frost</span>
-            </span>
-            <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-white/60">
-              Electrical & Solar
-            </span>
-          </span>
+          <img
+            src={logoAsset.url}
+            alt="EcoFrost Solar Solutions"
+            className="h-11 w-auto rounded-lg bg-white object-contain"
+          />
         </a>
 
         <div className="hidden items-center gap-8 lg:flex">
